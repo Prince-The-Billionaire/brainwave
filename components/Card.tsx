@@ -6,8 +6,8 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 
 
 interface props{
-    title:String,
-    desc:String,
+    title:string,
+    desc:string,
     image:string | StaticImport,
     card:string
 }

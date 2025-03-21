@@ -15,8 +15,8 @@ const NextSection = () => {
     <div className='items-center flex flex-col justify-center '>
         <p className='text-6xl mt-36 text-center text-white font-bold'>Chat Smarter, Not Harder <br/>with Brainwave</p>
         <div className='grid grid-cols-3 gap-5 px-16'>
-          {newone.map((item) => (
-            <Card card={item.card} title={item.title} desc={item.desc} image={item.image}/>
+          {newone.map((item,index) => (
+            <Card key={index} card={item.card} title={item.title} desc={item.desc} image={item.image}/>
           ))} 
         </div>
     </div>

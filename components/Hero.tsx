@@ -14,7 +14,7 @@ const Hero = () => {
         const centerX = bbox.left + bbox.width/2
         const centerY = bbox.top + bbox.height/2
         const deltaX =  e.clientX - centerX
-        const deltaY =  e.clientY - centerY
+        //const deltaY =  e.clientY - centerY
         console.log(centerX, centerY)
         gsap.to(
             parallaxdivref.current,{

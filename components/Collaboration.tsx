@@ -34,7 +34,7 @@ const Collaboration = () => {
         </div>
     </div>
     <div className='w-[32rem]'>
-        <p className='text-white/50'>With smart automation and top-notch security, it's the perfect solution for 
+        <p className='text-white/50'>With smart automation and top-notch security, it&apos;s the perfect solution for 
             teams looking to work smarter
         </p>
         <div className='relative mt-36'>

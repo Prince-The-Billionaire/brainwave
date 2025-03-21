@@ -40,7 +40,7 @@ const Benefits = () => {
                 </div>
                 <div className='flex gap-5 flex-col '>
                     <p>Photo editing</p>
-                    <p>Automatically enhance your photos using our AI app's photo 
+                    <p>Automatically enhance your photos using our AI app&apos;s photo 
                         editing feature. Try it now
                     </p>
                 </div>
